@@ -1,0 +1,39 @@
+.section {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    /* this keeps the background in place */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    border: 2px solid #666;
+    height: 50%;
+    /* this height difference allows the bg to show through */
+}
+
+.section#s1 {
+    background-image: url(imagedesign.jpg);
+}
+
+.section#s2 {
+    background-image: url(flower.jpg);
+}
+
+.section#s3 {
+    background-image: url(http://getwallpapers.com/wallpaper/full/2/d/5/822313-full-size-nice-pictures-for-desktop-background-1920x1200-4k.jpg);
+}
+
+.section#s4 {
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/03/Nice-wallpaper-cool-download-free.jpg);
+}
+
+.section#s5 {
+    background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/03/Images-nice-wallpaper-hd-background.jpg);
+}

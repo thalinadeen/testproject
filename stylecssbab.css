@@ -1,0 +1,278 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header-logo-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    background: #ffffff;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    position: relative;
+    top: 35%;
+    left: 12%;
+}
+
+nav {
+    padding-right: 15%;
+}
+
+nav ul {
+    display: flex;
+    padding: 38.5%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 50%;
+}
+
+nav ul li a {
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #6d6666;
+    font-size: 1rem;
+}
+
+.logo-h1-contact {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-h1-contact img {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+}
+
+h1 {
+    font-family: "helvetica";
+    font-weight: 400;
+    font-size: 2rem;
+    color: #F3976C;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+.logo-h1-contact a {
+    border: 1px solid #F3976C;
+    border-radius: 30px;
+    background: #F3976C;
+    z-index: 2;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-family: "helvetica";
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.logo-h1-contact a:hover {
+    border: 1px solid #b66f4e;
+    background: #b66f4e;
+}
+
+.logo-h1-contact a span {
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: #ffffff;
+}
+
+.présentation {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    width: 53%;
+    color: #6d6666;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.grille {
+    width: 75%;
+    height: auto;
+    display: flex;
+
+}
+
+.web-design {
+    width: 33%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-design img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.web-design h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.web-design p {
+    text-align: center;
+    font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757
+}
+
+.stratégie {
+    width: 33%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stratégie img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.stratégie h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.stratégie p {
+    text-align: center;
+    font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757
+}
+
+.illustration {
+    width: 33%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration img {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.illustration h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.illustration p {
+    text-align: center;
+    font-size: 11px;
+    font-family: "helvetica";
+    font-weight: 400;
+    color: #575757
+}
+
+aside {
+    display: grid;
+    place-items: center;
+}
+
+aside p {
+    font-size: 1.25rem;
+    width: 53%;
+    color: #6d6666;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+aside .signature {
+    font-size: 1.25rem;
+    width: 53%;
+    color: #9b9393;
+    font-family: Helvetica;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.section {
+    position: relative;
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    /* this keeps the background in place */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    border: 2px solid #666;
+    height: 50%;
+    /* this height difference allows the bg to show through */
+}
+
+.section#S1 {
+    background-image: url(image-de-presentation.jpg);
+}
+
+.section#S2 {
+    background-image: url(agence-la-panthere.jpg);
+}
